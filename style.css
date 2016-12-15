@@ -9,7 +9,7 @@ p {
 
 @font-face{
     font-family: existence;
-    src: url(../Existence.ttf);
+    src: url(Existence.ttf);
 }
 
 #comments{
@@ -541,7 +541,7 @@ background: -webkit-radial-gradient(top right ellipse, #006cff 40%, #00d0d0 100%
 /*---sun&moon---*/
 
 #maremoon{
-    background-image: url(../img/moon.png);
+    background-image: url(https://68.media.tumblr.com/438f7773b747824999124df41b588386/tumblr_oi8v8gL8jS1vjookoo7_250.png);
     width: 200px;
     height: 200px;
     position: fixed;
@@ -552,7 +552,7 @@ background: -webkit-radial-gradient(top right ellipse, #006cff 40%, #00d0d0 100%
 }
 
 #moon{
-    background-image: url(../img/maremoon.png);
+    background-image: url(https://68.media.tumblr.com/b75798bb6a28b9420102dee2b077b4ae/tumblr_oi8v8gL8jS1vjookoo6_250.png);
     width: 200px;
     height: 200px;
     position: fixed;
@@ -563,7 +563,7 @@ background: -webkit-radial-gradient(top right ellipse, #006cff 40%, #00d0d0 100%
 }
 
 #sun{
-    background-image: url(../img/sun.png);
+    background-image: url(https://68.media.tumblr.com/820c79e592ad5cb56ee65fe1431b969a/tumblr_oi8zi6cLaU1vjookoo3_400.png);
     width: 400px;
     height: 400px;
     position: fixed;

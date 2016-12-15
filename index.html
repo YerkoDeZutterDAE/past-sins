@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>past sins</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script>
+        function next0() {
+			document.getElementById('zero').className = 'fadeout';
+			document.getElementById('one').className = 'fadein';
+			document.getElementById('next-zero').className = 'nextout';
+			document.getElementById('next-one').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+            document.getElementById('nyxB').className = 'out';
+            document.getElementById('c-y').className = 'in';
+            document.getElementById('luna').className = 'in';
+		}
+        
+		function next() {
+			document.getElementById('one').className = 'fadeout';
+			document.getElementById('two').className = 'fadein';
+			document.getElementById('next-one').className = 'nextout';
+			document.getElementById('next-two').className = 'nextin';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+		}
+
+		function next2() {
+			document.getElementById('two').className = 'fadeout';
+			document.getElementById('three').className = 'fadein';
+			document.getElementById('next-two').className = 'nextout';
+			document.getElementById('next-three').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+            document.getElementById('c-y').className = 'out';
+		}
+
+		function next3() {
+			document.getElementById('three').className = 'fadeout';
+			document.getElementById('four').className = 'fadein';
+			document.getElementById('next-three').className = 'nextout';
+			document.getElementById('next-four').className = 'nextin';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+            document.getElementById('nightmm').className = 'in';
+            document.getElementById('nmm-h').className = 'in';
+            document.getElementById('nmm-t').className = 'in';
+            document.getElementById('luna').className = 'out';
+		}
+
+		function next4() {
+			document.getElementById('four').className = 'fadeout';
+			document.getElementById('five').className = 'fadein';
+			document.getElementById('next-four').className = 'nextout';
+			document.getElementById('next-five').className = 'nextin';
+            document.getElementById('moon').className = 'night';
+            document.getElementById('nightmm').className = 'out';
+            document.getElementById('nmm-h').className = 'out';
+            document.getElementById('nmm-t').className = 'out';
+            document.getElementById('celestia').className = 'in';
+            document.getElementById('c-h').className = 'in';
+            document.getElementById('c-t').className = 'in';
+		}
+
+		function next5() {
+			document.getElementById('five').className = 'fadeout';
+			document.getElementById('six').className = 'fadein';
+			document.getElementById('next-five').className = 'nextout';
+			document.getElementById('next-six').className = 'nextin';
+            document.getElementById('moon').className = 'day';
+            document.getElementById('tree').className = 'day';
+            document.getElementById('nightmm').className = 'in';
+            document.getElementById('nmm-h').className = 'in';
+            document.getElementById('nmm-t').className = 'in';
+            document.getElementById('celestia').className = 'out';
+            document.getElementById('c-h').className = 'out';
+            document.getElementById('c-t').className = 'out';
+		}
+
+		function next6() {
+			document.getElementById('six').className = 'fadeout';
+			document.getElementById('seven').className = 'fadein';
+			document.getElementById('next-six').className = 'nextout';
+			document.getElementById('next-seven').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+            document.getElementById('nightmm').className = 'out';
+            document.getElementById('nmm-h').className = 'out';
+            document.getElementById('nmm-t').className = 'out';
+            document.getElementById('celestia').className = 'in';
+            document.getElementById('c-h').className = 'in';
+            document.getElementById('c-t').className = 'in';
+            document.getElementById('luna').className = 'in';
+            document.getElementById('twilight').className = 'in';
+		}
+
+		function next7() {
+			document.getElementById('seven').className = 'fadeout';
+			document.getElementById('eighth').className = 'fadein';
+			document.getElementById('next-seven').className = 'nextout';
+			document.getElementById('next-eighth').className = 'nextin';
+            document.getElementById('celestia').className = 'out';
+            document.getElementById('c-h').className = 'out';
+            document.getElementById('c-t').className = 'out';
+            document.getElementById('luna').className = 'out';
+		}
+
+		function next8() {
+			document.getElementById('eighth').className = 'fadeout';
+			document.getElementById('nine').className = 'fadein';
+			document.getElementById('next-eighth').className = 'nextout';
+			document.getElementById('next-nine').className = 'nextin';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+            document.getElementById('twilight').className = 'out';
+		}
+
+		function next9() {
+			document.getElementById('nine').className = 'fadeout';
+			document.getElementById('ten').className = 'fadein';
+			document.getElementById('next-nine').className = 'nextout';
+			document.getElementById('next-ten').className = 'nextin';
+            document.getElementById('nyx').className = 'in';
+		}
+
+		function next10() {
+			document.getElementById('ten').className = 'fadeout';
+			document.getElementById('eleven').className = 'fadein';
+			document.getElementById('next-ten').className = 'nextout';
+			document.getElementById('next-eleven').className = 'nextin';
+            document.getElementById('twilight').className = 'in';
+		}
+
+		function next11() {
+			document.getElementById('eleven').className = 'fadeout';
+			document.getElementById('twelf').className = 'fadein';
+			document.getElementById('next-eleven').className = 'nextout';
+			document.getElementById('next-twelf').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+		}
+
+		function next12() {
+			document.getElementById('twelf').className = 'fadeout';
+			document.getElementById('thirteen').className = 'fadein';
+			document.getElementById('next-twelf').className = 'nextout';
+			document.getElementById('next-thirteen').className = 'nextin';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+            document.getElementById('moon').className = 'night';
+            document.getElementById('twilight').className = 'out';
+            document.getElementById('nyx').className = 'out';
+            document.getElementById('nightmm').className = 'in';
+            document.getElementById('nmm-h').className = 'in';
+            document.getElementById('nmm-t').className = 'in';
+		}
+        
+        function next13() {
+			document.getElementById('thirteen').className = 'fadeout';
+			document.getElementById('fourteen').className = 'fadein';
+			document.getElementById('next-thirteen').className = 'nextout';
+			document.getElementById('next-fourteen').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+		}
+        
+        function next14() {
+			document.getElementById('fourteen').className = 'fadeout';
+			document.getElementById('fiveteen').className = 'fadein';
+			document.getElementById('next-fourteen').className = 'nextout';
+			document.getElementById('next-fiveteen').className = 'nextin';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+		}
+        
+        function next15() {
+			document.getElementById('fiveteen').className = 'fadeout';
+			document.getElementById('sixteen').className = 'fadein';
+			document.getElementById('next-fiveteen').className = 'nextout';
+			document.getElementById('next-sixteen').className = 'nextin';
+            document.getElementById('day').className = 'day';
+            document.getElementById('sun').className = 'day';
+            document.getElementById('twilight').className = 'in';
+		}
+        
+        function next16() {
+			document.getElementById('sixteen').className = 'fadeout';
+			document.getElementById('seventeen').className = 'fadein';
+			document.getElementById('next-sixteen').className = 'nextout';
+			document.getElementById('next-seventeen').className = 'nextin';
+            document.getElementById('nmm-h').className = 'out';
+            document.getElementById('nmm-t').className = 'out';
+            document.getElementById('nightmm').className = 'out';
+            document.getElementById('nyx').className = 'in';
+            document.getElementById('moon').className = 'day';
+		}
+        
+        function next17() {
+			document.getElementById('seventeen').className = 'fadeout';
+			document.getElementById('zero').className = 'fadein';
+			document.getElementById('next-seventeen').className = 'nextout';
+			document.getElementById('next-zero').className = 'nextin';
+            document.getElementById('nyx').className = 'out';
+            document.getElementById('nyxB').className = 'day';
+            document.getElementById('twilight').className = 'out';
+            document.getElementById('day').className = 'night';
+            document.getElementById('sun').className = 'night';
+        }
+	</script>
+</head>
+
+<body>
+
+	<div id="next-full">
+        
+        <img src="img/thumbnails_60_152989.png" class="next" id="next-zero" alt="" onclick="next0 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-one" alt="" onclick="next ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-two" alt="" onclick="next2 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-three" alt="" onclick="next3 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-four" alt="" onclick="next4 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-five" alt="" onclick="next5 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-six" alt="" onclick="next6 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-seven" alt="" onclick="next7 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-eighth" alt="" onclick="next8 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-nine" alt="" onclick="next9 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-ten" alt="" onclick="next10 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-eleven" alt="" onclick="next11 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-twelf" alt="" onclick="next12 ()">
+
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-thirteen" alt="" onclick="next13 ()">
+		
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-fourteen" alt="" onclick="next14 ()">
+		
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-fiveteen" alt="" onclick="next15 ()">
+		
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-sixteen" alt="" onclick="next16 ()">
+		
+		<img src="img/thumbnails_60_152989.png" class="next" id="next-seventeen" alt="" onclick="next17 ()">
+
+	</div>
+
+	<div id="text">
+        
+        <a href="http://www.fimfiction.net/story/41596/past-sins"><img src="img/past-sins-title-card.png" id="zero" alt="" width="30%"></a>
+
+		<p id="one">Once upon a time, in the magical land of Equestria, there were two regal sisters who ruled together and created harmony for all the land. To do this, the eldest used her unicorn powers to raise the sun at dawn.</p>
+
+		<p id="two">the younger brought out the moon to begin the night. Thus, the two sisters maintained balance for their kingdom and their subjects, all the different types of ponies.</p>
+
+		<p id="three">But as time went on, the younger sister became resentful. The ponies relished and played in the day her elder sister brought forth, but shunned and slept through her beautiful night.</p>
+
+		<p id="four">One fateful day, the younger unicorn refused to lower the moon to make way for the dawn. The elder sister tried to reason with her, but the bitterness in the young one's heart had transformed her into a wicked mare of darkness: Nightmare Moon.</p>
+
+		<p id="five">She vowed that she would shroud the land in eternal night. Reluctantly, the elder sister harnessed the most powerful magic known to ponydom: the Elements of Harmony. Using the magic of the Elements of Harmony, she defeated her younger sister, and banished her permanently in the moon. The elder sister took on responsibility for both...</p>
+
+		<p id="six">After 1000 years, the stars have agent her escape. Whit the magic she gained, she inprisend her elder sister in the sun. Thus there needed to be new holders of the elements of harmony.</p>
+
+		<p id="seven">Twilight Sparkle, the magic pupil of the younger sister took up that role togeder whit the friends she made the same night Nightmare Moon took over. Twilight Sparkle and her friends defeated Nightmare Moon by scattering her armor and freeing her mind of resentment. And freed the elder sister from the sun.</p>
+
+		<p id="eighth">The elder sister and the younger sister ruled together again. While Twilight Sparkel and her friends stayed the holders of the elements of harmony.</p>
+
+		<p id="nine">But some ponies calls the children of nightmare believed in the endless night and wanted Nightmare Moon to return as there thru queen. Thus whit the scaterd remains of there thru queen’s armor and the mare that defeated there queen they cast a spell to try and bring her back. But in the middle of there spell the elder sister came to stop the spell and save her pupil.</p>
+
+		<p id="ten">Thus a new Nightmare Moon was made. Tho whit a childs body and no memory’s of her past. All alone in the dark forest.</p>
+
+		<p id="eleven">Twilight Sparkle found the young Nightmare Moon in the forest. Not sure who the young child was, she took her in, cared for her, protected of and called her Nyx untill she found out who she was.</p>
+
+		<p id="twelf">After a while, Twilight Parkel began to care a lot for the young child now named Nyx, and Nyx for her. And looking at eatchother mother and dauther.</p>
+
+		<p id="thirteen">The children of nightmare found out about Nyx and found a way to return Nightmare Moon’s original body and memory back. Thus Nightmare Moon coma back and broth forward the enturnal night after banesing the eldest and the youngest sister’s to the sun and moon. And inprisening Twilight Sparkel in the dungeons of her own castle.</p>
+		
+		<p id="fourteen">Nightmare Moon got sad. Everyone fears her instead of respected her. Thus Nyx released all her followers and returned the sun to begin the day again. And released Twilight Sparkle from her inprisenment. And Nyx hid in her castle whit one question on her mind.</p>
+		
+		<p id="fiveteen">The villages of Equestrian became flooded whit monsters who one’s feared the sisters. Tho whit the sisters gone that attack the land. Nyx, one’s hidden in her privet castle, came out to take on all the monsters by herself.</p>
+		
+		<p id="sixteen">Whit Nyx woonde in her own castle and equestrian saved from the monsters that attack it, Nyx had the change to talk things out whit Twilight Sparkle. Tho whit her wounded, she was not able to lower the sun to make way for the night. Thus she had to free the sisters from there inprisenment from the sun and moon and exept there punichment for her mistakes.</p>
+		
+		<p id="seventeen">The 2 sisters divided to give Nyx a second chance. Tho they took away most of her magical pawers, refusing her back to a childs body. Twilight sparkle became the legal guardian of Nyx and that lived together as mother and daughter.</p>
+
+	</div>
+	
+	<div id="forground">
+	
+	<img src="img/mounten.png" width="450px" height="100px" id="grass" alt="">
+	
+	<img src="img/apple_tree_by_a01421-d51d8ep.png" width="200px" id="tree" alt="">
+	
+	<img src="img/celestia-young.png" id="c-y" width="70px" alt="">
+	
+	<img src="img/luna.png" id="luna" width="70px" alt="">
+	
+	<img src="img/celestia.png" id="celestia" width="50px" alt="">
+	
+	<img src="img/celestia-hair.gif" id="c-h" width="100px" alt="">
+	
+	<img src="img/celestia-hair.gif" id="c-t" width="100px" height="30px" alt="">
+	
+	<img src="img/nightmare-moon-bod.png" id="nightmm" width="50px" alt="">
+	
+	<img src="img/nightmare-moon.gif" id="nmm-h" width="100px" alt="">
+	
+	<img src="img/nightmare-moon.gif" id="nmm-t" width="100px" height="30px" alt="">
+	
+	<img src="img/nyx.png" id="nyx" width="40px" alt="">
+	
+	<img src="img/nyx.png" id="nyxB" width="40px" alt="">
+	
+	<img src="img/twilight.png" id="twilight" width="40px" alt="">
+	
+	</div>
+	
+	<a href="http://yerko321.deviantart.com/" id="comments">comments? leave them here</a>
+	
+	<a href="http://www.fimfiction.net/story/41596/past-sins" id="pastsins">Past Sins: the full story</a>
+	
+	<div id="day"></div>
+	
+	<div id="maremoon"></div>
+	
+	<div id="moon"></div>
+	
+	<div id="sun"></div>
+	
+	<div id="star-preset">
+  
+<body>
+  <div id="scene" class="stars-wrapper">
+    <div data-depth="0.00" class="layer"></div>
+    <div data-depth="0.30" class="stars-cluster stars-cluster-1 layer">
+      <div class="star star-1"></div>
+      <div class="star star-2"></div>
+      <div class="star star-3"></div>
+      <div class="star star-4"></div>
+      <div class="star star-5"></div>
+      <div class="star star-6"></div>
+      <div class="star star-7"></div>
+      <div class="star star-8"></div>
+      <div class="star star-9"></div>
+      <div class="star star-10"></div>
+      <div class="star star-11"></div>
+      <div class="star star-12"></div>
+      <div class="star star-13"></div>
+      <div class="star star-14"></div>
+      <div class="star star-15"></div>
+      <div class="star star-16"></div>
+      <div class="star star-17"></div>
+      <div class="star star-18"></div>
+      <div class="star star-19"></div>
+      <div class="star star-20"></div>
+      <div class="star star-21"></div>
+      <div class="star star-22"></div>
+      <div class="star star-23"></div>
+      <div class="star star-24"></div>
+      <div class="star star-25"></div>
+      <div class="star star-26"></div>
+      <div class="star star-27"></div>
+      <div class="star star-28"></div>
+      <div class="star star-29"></div>
+      <div class="star star-30"></div>
+      <div class="star star-31"></div>
+      <div class="star star-32"></div>
+      <div class="star star-33"></div>
+      <div class="star star-34"></div>
+      <div class="star star-35"></div>
+      <div class="star star-36"></div>
+      <div class="star star-37"></div>
+      <div class="star star-38"></div>
+      <div class="star star-39"></div>
+      <div class="star star-40"></div>
+    </div>
+    <div data-depth="0.50" class="stars-cluster stars-cluster-2 layer">
+      <div class="star star-1"></div>
+      <div class="star star-2"></div>
+      <div class="star star-3"></div>
+      <div class="star star-4"></div>
+      <div class="star star-5"></div>
+      <div class="star star-6"></div>
+      <div class="star star-7"></div>
+      <div class="star star-8"></div>
+      <div class="star star-9"></div>
+      <div class="star star-10"></div>
+      <div class="star star-11"></div>
+      <div class="star star-12"></div>
+      <div class="star star-13"></div>
+      <div class="star star-14"></div>
+      <div class="star star-15"></div>
+      <div class="star star-16"></div>
+      <div class="star star-17"></div>
+      <div class="star star-18"></div>
+      <div class="star star-19"></div>
+      <div class="star star-20"></div>
+      <div class="star star-21"></div>
+      <div class="star star-22"></div>
+      <div class="star star-23"></div>
+      <div class="star star-24"></div>
+      <div class="star star-25"></div>
+      <div class="star star-26"></div>
+      <div class="star star-27"></div>
+      <div class="star star-28"></div>
+      <div class="star star-29"></div>
+      <div class="star star-30"></div>
+      <div class="star star-31"></div>
+      <div class="star star-32"></div>
+      <div class="star star-33"></div>
+      <div class="star star-34"></div>
+      <div class="star star-35"></div>
+      <div class="star star-36"></div>
+      <div class="star star-37"></div>
+      <div class="star star-38"></div>
+      <div class="star star-39"></div>
+      <div class="star star-40"></div>
+    </div>
+    <div data-depth="0.90" class="stars-cluster stars-cluster-3 layer">
+      <div class="star star-1"></div>
+      <div class="star star-2"></div>
+      <div class="star star-3"></div>
+      <div class="star star-4"></div>
+      <div class="star star-5"></div>
+      <div class="star star-6"></div>
+      <div class="star star-7"></div>
+      <div class="star star-8"></div>
+      <div class="star star-9"></div>
+      <div class="star star-10"></div>
+      <div class="star star-11"></div>
+      <div class="star star-12"></div>
+      <div class="star star-13"></div>
+      <div class="star star-14"></div>
+      <div class="star star-15"></div>
+    </div>
+    <div data-depth="0.30" class="moon-wrapper layer">
+      <div class="moon"></div>
+    </div>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/wagerfield/parallax/master/source/jquery.parallax.js'></script>
+
+    <script src="js/index.js"></script>
+
+</div>
+
+</body>
+
+</html>
